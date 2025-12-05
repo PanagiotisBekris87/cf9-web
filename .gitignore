@@ -1,0 +1,9 @@
+# Ignore VS Code settings directory
+.vscode/
+# Ignore Node modules (if this is a web project)
+node_modules/
+# Ignore temporary build files
+dist/
+
+**/*.jpg
+img/
