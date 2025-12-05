@@ -1,142 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tables</title>
 </head>
+
 <body>
-    <h1>Tables in HTML</h1>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-    </style>
-    <table>
-        <caption>Lessons Program</caption>
-        <tr>
-            <td>Lesson</td>
-            <td>Teacher</td>
-            <td>Date/Time</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>Thanasis</td>
-            <td>Monday 18:00-21:00</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>Markos</td>
-            <td>Thursday 18:00-21:00</td>
-        </tr>
-    </table>
-    
-    <br>
-    
-    <table>
-        <tr>
+   <h1>Tables in HTML</h1>
+   <style>
+      table,
+      th,
+      td {
+         border: 1px solid black;
+      }
+   </style>
+   <table>
+      <caption>Lessons Program</caption>
+      <tr>
+         <td>Lesson</td>
+         <td>Teacher</td>
+         <td>Date/Time</td>
+      </tr>
+      <tr>
+         <td>Java</td>
+         <td>Thanasis</td>
+         <td>Monday 18:00-21:00</td>
+      </tr>
+      <tr>
+         <td>HTML</td>
+         <td>Markos</td>
+         <td>Thursday 18:00-21:00</td>
+      </tr>
+   </table>
+
+   <br>
+
+   <table>
+      <tr>
+         <th>Lesson</th>
+         <th>Teacher</th>
+         <th>Date/Time</th>
+      </tr>
+      <tr>
+         <td>Java</td>
+         <td>Thanasis</td>
+         <td>Monday 18:00-21:00</td>
+      </tr>
+      <tr>
+         <td>HTML</td>
+         <td>Markos</td>
+         <td>Thursday 18:00-21:00</td>
+      </tr>
+   </table>
+
+   <br>
+   <!-- Με tbody και thead ειναι πιο σωστο και θα δουλεψει και πιο σωστα προγραμματιστικα με την Javascript -->
+   <table>
+      <thead>
+         <tr>
             <th>Lesson</th>
             <th>Teacher</th>
             <th>Date/Time</th>
-        </tr>
-        <tr>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
             <td>Java</td>
             <td>Thanasis</td>
             <td>Monday 18:00-21:00</td>
-        </tr>
-        <tr>
+         </tr>
+         <tr>
             <td>HTML</td>
             <td>Markos</td>
             <td>Thursday 18:00-21:00</td>
-        </tr>
-    </table>
-    
-    <br>
-<!-- Με tbody και thead ειναι πιο σωστο και θα δουλεψει και πιο σωστα προγραμματιστικα με την Javascript -->
-    <table>
-        <thead>
-            <tr>
-                <th>Lesson</th>
-                <th>Teacher</th>
-                <th>Date/Time</th>
-            </tr>
-        </thead>
-        <tbody>                     
-            <tr>
-                <td>Java</td>
-                <td>Thanasis</td>
-                <td>Monday 18:00-21:00</td>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>Markos</td>
-                <td>Thursday 18:00-21:00</td>
-            </tr>
-        </tbody>
-    </table>
+         </tr>
+      </tbody>
+   </table>
 
-    <br>
+   <br>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Lesson</th>
-                <th>Teacher</th>
-                <th>Date/Time</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="3">Learning Programming</td>
-                <!-- <td></td> -->
-                <!-- <td></td> -->
-            </tr>
-            <tr>
-                <td>Java</td>
-                <td>Thanasis</td>
-                <td>Monday</td>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>Markos</td>
-                <td rowspan="2">Friday</td>
-            </tr>
-            <tr>
-                <td>SQL</td>
-                <td>Makis</td>
-                <!-- <td>Friday</td> -->
-            </tr>
-        </tbody>
-    </table>
-
-    <br>
-
-<!-- Φτιαξε Πίνακα 3x4 -->
-<!-- Δώσε εντολή:Programm table>tr*3>td*4 -->
-    <table>
-        <tr>
-            <td>Programm HTML</td>
-            <td>Programm HTML</td>
-            <td>Programm HTML</td>
-            <td>Programm HTML</td>
-        </tr>
-        <tr>
-            <td>Markos</td>
-            <td>Markos</td>
-            <td>Markos</td>
-            <td>Markos</td>
-        </tr>
-        <tr>
+   <table>
+      <thead>
+         <tr>
+            <th>Lesson</th>
+            <th>Teacher</th>
+            <th>Date/Time</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td colspan="3">Learning Programming</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+         </tr>
+         <tr>
+            <td>Java</td>
+            <td>Thanasis</td>
+            <td>Monday</td>
+         </tr>
+         <tr>
             <td>HTML</td>
-            <td>HTML</td>
-            <td>HTML</td>
-            <td>HTML</td>
-        </tr>
-    </table>
+            <td>Markos</td>
+            <td rowspan="2">Friday</td>
+         </tr>
+         <tr>
+            <td>SQL</td>
+            <td>Makis</td>
+            <!-- <td>Friday</td> -->
+         </tr>
+      </tbody>
+   </table>
 
-    <!-- ΕΠΙΛΟΓΉ ΠΟΛΛΑΠΛΏΝ ΓΡΑΜΜΏΝ -->
-    <!--1.  Alt  + mouse click  -->
-    <!--2.  ctrl + alt + down arrow -->
-    
+   <br>
+
+   <!-- Φτιαξε Πίνακα 3x4 -->
+   <!-- Δώσε εντολή:Programm table>tr*3>td*4 -->
+   <table>
+      <tr>
+         <td>Programm HTML</td>
+         <td>Programm HTML</td>
+         <td>Programm HTML</td>
+         <td>Programm HTML</td>
+      </tr>
+      <tr>
+         <td>Markos</td>
+         <td>Markos</td>
+         <td>Markos</td>
+         <td>Markos</td>
+      </tr>
+      <tr>
+         <td>HTML</td>
+         <td>HTML</td>
+         <td>HTML</td>
+         <td>HTML</td>
+      </tr>
+   </table>
+
+   <!-- ΕΠΙΛΟΓΉ ΠΟΛΛΑΠΛΏΝ ΓΡΑΜΜΏΝ -->
+   <!--1.  Alt  + mouse click  -->
+   <!--2.  ctrl + alt + down arrow -->
+
 </body>
+
 </html>
