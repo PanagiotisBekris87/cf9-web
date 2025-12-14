@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task 4</title>
+</head>
+<body>
+
+   <h1>Φόρμα Πληρωμής</h1>
+   
+   <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr>.</p>
+   
+   <form >
+      <h2>Προσωπικά Στοιχεία</h2>
+      <div>
+         <fieldset>
+            <legend>Title</legend>
+            <div>
+               <label for="fldTitle">Mr.</label>
+               <input type="radio" name="title" id="fldTitle" checked>
+            </div>
+            <div>
+               <label for="fldTitle">Mrs.</label>
+               <input type="radio" name="title" id="fldTitle">
+            </div>
+            <div>
+               <label for="fldTitle">Dr.</label>
+               <input type="radio" name="title" id="fldTitle">
+            </div>
+         </fieldset>
+      </div>
+      <div>
+         <label for="fldName">Name:<abbr title="Required field">*</abbr></label>
+         <input type="text" name="name" id="fldName" required>
+      </div>
+      <div>
+         <label for="fldEmail">E-mail:<abbr title="Required field">*</abbr></label>
+         <input type="email" name="email" id="fldEmail" required>
+      </div>
+      <div>
+         <label for="fldPassword">Password:<abbr title="Required field">*</abbr></label>
+         <input type="password" name="password" id="fldPassword" required>
+      </div>
+      <h2>Πληροφορίες Πληρωμής</h2>
+      <div>
+         <label for="fldCard">Card Type:</label>
+         <select name="card" id="fldCard">
+            <option value="" disabled selected>Choose card type</option>
+            <option value="Visa" >Visa</option>
+            <option value="Mastercard" >Mastercard</option>
+            <option value="Americanexpress" >American Express</option>
+            <option value="Dinersclub" >Diners Club</option>
+         </select>
+      </div>
+      <div>
+         <label for="fldCardnumber">Card number:<abbr title="Required field">*</abbr></label>
+         <input type="text" name="cardnumber" id="fldCardnumber" minlength="12" maxlength="19" required>
+      </div>
+      <div>
+         <label for="fldExpDate">Expiration date:<abbr title="Required field">*</abbr></label>
+         <input type="date" name="expdate" id="fldExpDate" required>
+      </div>
+      <div>
+         <input type="submit" value="Προχωρήστε στην πληρωμή">
+      </div>
+   </form>
+</body>
+</html>
