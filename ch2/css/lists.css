@@ -1,0 +1,33 @@
+* {         /* Universal selector */
+   box-sizing: border-box;
+   padding: 0;
+}
+
+
+ul {
+   /* display */
+   display: flex;       /* default horizontal alignment */
+   justify-content: center;
+   gap: 20px;
+
+   /* Visual */
+   list-style: none;
+}
+
+a {
+   /* display */
+   display: inline-block;
+
+   /* Box model*/
+   padding: 5px 80px;
+   border: 1px solid black;
+
+   /* Typography */
+   font-weight: bold;
+   text-decoration: none;
+
+   /* Visual */
+   color: black;
+   cursor: pointer;
+
+}
