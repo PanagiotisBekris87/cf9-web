@@ -1,47 +1,53 @@
 *, ::after, ::before {
    box-sizing: border-box;
-   padding: 0;
+   padding: 0px;
    /* margin: 0; */
 }
 
 .row {
-   margin-bottom: 10px;  
+   margin-bottom: 10px;
 }
 
 label {
-   /* margin-left: 50x; */
    display: inline-block;
    width: 80px;
+
+   margin-left: 10px;
 }
 
 .input-item {
+
    width: 200px;
-   height: 25px;
-   border-radius: 5px;
+   height: 30px;
    border: 1px solid black;
+   border-radius: 10px;
    padding-left: 5px;
 }
 
 .input-item:focus {
+
    outline: none;
 }
 
 [type='submit'] {
-   margin-left: 85px;
-   margin-top: 10px;
-   padding: 5px 76px;
+   margin-left: 98px;
+   margin-top: 15px;
+   padding: 10px 73px;
    border-radius: 30px;
    color: white;
-   background-color: black;
-   
+   background-color: red;
+   cursor: pointer;
 }
 
 [type='submit']:hover {
-   background-color: blue;
+
    color: yellow;
+   background-color: blue;
+   
 }
 
 h1::after {
-   content: '\1F918';
-   margin-left: 20px;
+   content: '\2764\FE0F';
+   margin: 20px;
+   
 }
