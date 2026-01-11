@@ -1,0 +1,19 @@
+.header {
+   height: 200px;
+   
+   border: 1px solid black;
+}
+
+
+
+.aueb-img > img {
+   height: calc(95vh - 200px);
+
+   /* Σκέψου το vh σαν ποσοστό του ύψους της σελίδας */
+   /* Δεν βάζουμε 100 γιατί συμπεριλαμβάνεται και το address bar και το bookmark */
+
+   width: calc(99vw);
+   /* Αντίστοιχα για width με vw */
+   
+   border: 1px solid red;
+}

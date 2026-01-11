@@ -1,0 +1,15 @@
+.container {
+   border: 1px solid black;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Θέλω να βάλω την εικόνα (inline element) */
+/* και ένα div (block element) */
+/* να τα βάλω δίπλα δίπλα */
+
+.nav {
+   display: inline-block;
+   /* Inline-block μπορω να ορίσω και ύψος και πλάτος */
+}

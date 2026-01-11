@@ -1,0 +1,30 @@
+.header-1 {
+   color:darkslateblue;
+   border-bottom: 1px solid darkblue;
+   font-family: serif;
+}
+
+.teacher {
+   color: lightslategray;
+   font-family: sans-serif;
+   font-weight: 200;
+}
+
+.header-2 {
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.contact-info {
+   background-color: lightgray;
+   border: 5px solid darkblue;
+   height: 90px;
+   width: 350px;
+}
+
+.url-clr:link {
+   color: darkorange;
+}
+
+.url-clr:visited {
+   color: darkgreen;
+}
