@@ -15,10 +15,11 @@
 }
 
 .contact-info {
-   background-color: lightgray;
+   background-color:gainsboro;
    border: 5px solid darkblue;
    height: 90px;
    width: 350px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .url-clr:link {
