@@ -5,6 +5,12 @@
    margin-right: auto;
 }
 
+.aueg-img {
+   width: 400px;
+   height: auto;
+   vertical-align: middle;
+}
+
 /* Θέλω να βάλω την εικόνα (inline element) */
 /* και ένα div (block element) */
 /* να τα βάλω δίπλα δίπλα */
@@ -12,4 +18,57 @@
 .nav {
    display: inline-block;
    /* Inline-block μπορω να ορίσω και ύψος και πλάτος */
+   vertical-align: middle;
+}
+
+.nav li {
+   display: inline-block;
+   margin-right: 100px;
+}
+
+.nav li:first-child {
+   margin-left: 250px;
+}
+
+.nav a {
+   text-decoration: none;
+   color: black;
+   background-color: blanchedalmond;
+   padding: 15px 10px;
+   font-size: 1.2rem;
+}
+
+.nav a:hover {
+   color: blue;
+   /* font-weight: 600; */
+}
+
+.mt-10 {
+   margin-top: 10px;
+}
+
+nav {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+nav li {
+   display: inline-block;
+   margin-right: 100px;
+}
+
+nav li:first-child {
+   margin-left: 250px;
+}
+
+nav a {
+   text-decoration: none;
+   color: black;
+   background-color: blanchedalmond;
+   padding: 15px 10px;
+   font-size: 1.2rem;
+}
+
+nav a:hover {
+   color: blue;
 }
