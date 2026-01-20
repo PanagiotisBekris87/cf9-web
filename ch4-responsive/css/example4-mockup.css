@@ -1,0 +1,138 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   width: 98%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logo > img {
+   height: 120px;
+   width: auto;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #762124;
+}
+
+nav {
+   width: 550px;
+}
+
+nav > ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 120px;
+   list-style: none;
+}
+
+nav > ul > li > a {
+   /* background-color: green; */
+   padding: 5px 10px;
+   color: white;
+   text-decoration: none;
+   font-size: 1.1rem;
+}
+
+nav > ul > li:last-of-type {
+   margin-right: 100px;
+}
+
+.home-img {
+   overflow: hidden;
+   background-image: url(../../img/tep-aueb.jpg);
+   height: calc(97vh - 120px);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.home-title {
+   width: 55%;
+   color: white;
+   font-size: 2.5rem;
+   font-weight: 600;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   margin-top: 100px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.mt-2 {
+   margin-top: 20px;
+}
+
+.mb-2 {
+   margin-bottom: 20px;
+}
+
+footer {
+   display: flex;
+   height: 150px;
+   background-color: #712624;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   padding: 0 25px;
+   font-size: 1.1rem;
+}
+
+.fa-square-facebook, .fa-linkedin {
+   color: blue;
+   font-size: 2rem;
+   margin-right: 15px;
+   margin-left: 20px;
+}
+
+.dropdown {
+   position: relative;
+}
+
+.dropdown-content {
+   display: none;
+   width: 120px;
+   background-color: lightblue;
+   list-style: none;
+   position: absolute;
+   top: 20px;
+   left: 10px;
+   flex-direction: column;
+}
+
+.dropdown:hover > .dropdown-content {
+   display: flex;
+}
+
+.navbar-toggler {
+   display: none;
+   margin-right: 50px;
+}
+
+.menu-toggler {
+   display: none;
+}
+
+@media (max-width: 992px) {
+   nav { 
+      display: none;
+   }
+
+   .navbar-toggler {
+   display: block;
+}
+}
