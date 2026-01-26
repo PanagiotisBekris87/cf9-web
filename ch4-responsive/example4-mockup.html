@@ -36,7 +36,6 @@
       </div>
    </header>
 
-
    <div class="menu-toggler">
       <ul>
          <li><a href="#">Menu tog. 1</a></li>
@@ -59,7 +58,7 @@
 
 <!-- Main -->
 
-<main class="mt-2 mb-2">
+<main class="mt-2 mb-2" id="main">
    <h2 class="mb-2">Coding Factory</h2>
    <section>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab modi hic dolore maiores aliquam vel incidunt libero. Suscipit vel nobis porro, vero nemo tempore fugiat optio ad earum consequuntur!
@@ -77,7 +76,7 @@
 
 <!-- footer -->
 
-<footer>
+<footer id="footer">
    <div>
       &copy Coding Factory 2026 - Athens University of Econimics and Business
    </div>
@@ -88,22 +87,20 @@
    </div>
 </footer>
 
-   
-<!-- <script>
-      const img = document.querySelector('.home-img')
-      const toggleBtn = document.querySelector('.navbar-toggler')
-      const navbarToggle = document.querySelector('.menu-toggler')
-      const main = document.getElementsByTagName('main')
-      const footer = document.getElementsByTagName('footer')
- 
-      toggleBtn.addEventListener('click', function() {
-          img.classList.toggle('hidden')
-          navbarToggle.classList.toggle('show')
-          main.classList.toggle('hidden')
-          footer.classList.toggle('hidden')
-      })
-  </script> -->
+  <script>
+    const img = document.querySelector('.home-img');
+    const toggleBtn = document.querySelector('.navbar-toggler');
+    const navbarToggle = document.querySelector('.menu-toggler');
+    const main = document.getElementById('main');
+    const footer = document.getElementById('footer');
 
+    toggleBtn.addEventListener('click', function() {
+      img.classList.toggle('hidden');
+      navbarToggle.classList.toggle('show');
+      main.classList.toggle('hidden');
+      footer.classList.toggle('hidden');
+    })
+  </script>
 
 </body>
 </html>
