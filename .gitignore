@@ -8,8 +8,8 @@ dist/
 **/*.jpg
 **/*.png
 **/*.svg
+*/images/
 img/
 vids/
 songs/
 */challenge-taxis-log-in/
-
