@@ -5,12 +5,4 @@ node_modules/
 # Ignore temporary build files
 dist/
 
-**/*.jpg
-**/*.png
-**/*.svg
-*/images/
-img/
-vids/
-songs/
-*/challenge-taxis-log-in/
 /tailwind.config.js
