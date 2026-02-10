@@ -1,0 +1,130 @@
+:root {
+   --full-width: 45vw;
+   --partial-width:40vw;
+   --full-height: 100vh;
+   --color-light: rgb(213, 211, 211);
+   --color-white: #fff;
+   --min-height-85vh: 85vh;
+   --min-height-60px: 60px;
+   --min-height-48px: 48px;
+   --color-bluelight: #3179B1;
+   --color-blueauth: #5479A2;
+   --color-grey: rgba(205, 202, 202, 0.5);
+   --color-bluelink: rgb(42, 100, 163);
+   --font-weight600: 600;
+}
+
+*, *::after, *::before {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   height: var(--full-height);
+   background-color: var(--color-light);
+}
+
+.login-gov {
+   background-color: var(--color-white);
+}
+
+.center {
+   display: grid;
+   place-items: center;
+}
+
+.full-width {
+   width: var(--full-width);
+}
+
+.min-height85 {
+   height: var(--min-height-85vh);
+}
+
+.min-height60 {
+   height: var(--min-height-60px);
+}
+
+.dflex-sb-center {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.auth-text {
+   background-color: var(--color-blueauth);
+   color: #fff;
+}
+
+.font-sans {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inline-block {
+   display: inline-block;
+   text-align: center;
+}
+
+.m-top {
+   margin-top: 15px;
+}
+
+.xlg-text {
+   font-size:x-large;
+}
+
+.line {
+   height: 2px;
+   width: var(--partial-width);
+   border-bottom: 1px solid var(--color-grey);
+}
+
+.lg-text {
+   font-size: large;
+}
+
+.font-strong {
+   font-weight: var(--font-weight600);
+}
+
+.min-height48 {
+   height: var(--min-height-48px);
+}
+
+.item-large {
+   width: 200px;
+   height: 28px;
+}
+
+.no-outline {
+   outline: none;
+}
+
+.color-bluelight {
+   background-color: var(--color-bluelight);
+}
+
+.text-white {
+   color: white;
+}
+
+.rounded {
+   border-radius: 5px;
+}
+
+.no-border {
+   border-style: none;
+}
+
+.align-center {
+   text-align: center;
+}
+
+a {
+   color: var(--color-bluelink);
+}
+
+span {
+   font-size: larger;
+}
